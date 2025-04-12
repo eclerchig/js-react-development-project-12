@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "npm install vite --no-save",
     "start": "npx start-server -s ./dist",
     "build":  "vite build",
     "lint": "eslint .",
